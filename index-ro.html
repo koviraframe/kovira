@@ -1,54 +1,75 @@
-
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kovira Frame | Case SIP în Moldova</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kovira Frame | Дома из SIP-панелей</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; color: #333; }
+    header { background: #0e2f44; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { margin: 0; font-size: 1.5em; }
+    nav a { color: white; margin-left: 15px; text-decoration: none; font-weight: bold; }
+    .hero { text-align: center; padding: 50px 20px; background: #cce5ff; }
+    .hero h2 { font-size: 2em; margin-bottom: 10px; }
+    .projects { display: flex; flex-wrap: wrap; justify-content: center; padding: 40px 20px; gap: 20px; }
+    .project-card { background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); width: 300px; overflow: hidden; }
+    .project-card img { width: 100%; height: auto; }
+    .project-card .info { padding: 15px; }
+    .section { padding: 40px 20px; text-align: center; }
+    footer { background: #0e2f44; color: white; padding: 20px; text-align: center; }
+    .lang-switch { float: right; font-size: 0.9em; }
+  </style>
 </head>
 <body>
   <header>
-    <div class="logo">Kovira Frame</div>
+    <h1>Kovira Frame</h1>
     <nav>
-      <a href="index-ro.html" class="active">Principal</a>
-      <a href="#projects">Proiecte</a>
-      <a href="#about">Despre tehnologie</a>
-      <a href="#contacts">Contacte</a>
-      <a href="index.html">RU</a>
+      <a href="#">Главная</a>
+      <a href="#projects">Проекты</a>
+      <a href="#tech">О технологии</a>
+      <a href="#contacts">Контакты</a>
+      <a href="index-ro.html">RO</a>
     </nav>
   </header>
 
   <section class="hero">
-    <h1>Case din panouri SIP</h1>
-    <p>Construcții moderne în Moldova. Rapid. Fiabil. Cald.</p>
+    <h2>Строительство домов по SIP-технологии</h2>
+    <p>Быстро, надёжно, тепло. Республика Молдова</p>
   </section>
 
-  <section id="projects">
-    <h2>Proiectele noastre</h2>
-    <div class="projects">
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Scandinavia">
-        <h3>Scandinavia – 82 m²</h3>
-        <p>Set casă: preț negociabil</p>
+  <section class="projects" id="projects">
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300x200?text=Скандинавия" alt="Скандинавия">
+      <div class="info">
+        <h3>Скандинавия – 82 м²</h3>
+        <p>Домокомплект: договорная цена</p>
       </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Luce">
-        <h3>Luce – 95 m²</h3>
-        <p>Set casă: preț negociabil</p>
+    </div>
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300x200?text=Луч" alt="Луч">
+      <div class="info">
+        <h3>Луч – 95 м²</h3>
+        <p>Домокомплект: договорная цена</p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300x200?text=Хайтек" alt="Хайтек">
+      <div class="info">
+        <h3>Хайтек – 110 м²</h3>
+        <p>Домокомплект: договорная цена</p>
       </div>
     </div>
   </section>
 
-  <section id="about">
-    <h2>Despre tehnologia SIP</h2>
-    <p>Casele SIP sunt eficiente energetic, durabile și se construiesc rapid. Sunt perfecte pentru clima Moldovei.</p>
+  <section class="section" id="tech">
+    <h2>О технологии SIP</h2>
+    <p>SIP (Structural Insulated Panel) — это современная технология строительства, обеспечивающая теплоизоляцию, прочность и скорость возведения. Идеально подходит для условий Молдовы.</p>
   </section>
 
   <footer id="contacts">
-    <p>Contacte: kovira.frame@gmail.com | 068006055 | 069565694</p>
-    <p>WhatsApp | TikTok | Instagram</p>
-    <p><a href="index.html">Versiunea în rusă</a></p>
+    <p>Контакты: kovira.frame@gmail.com | 068006055 | 069565694</p>
+    <p>WhatsApp | Instagram | TikTok</p>
+    <p><a href="index-ro.html" style="color: white; text-decoration: underline;">Versiunea în română</a></p>
   </footer>
 </body>
 </html>
